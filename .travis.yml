@@ -1,0 +1,9 @@
+language: csharp
+
+os:
+- linux
+- macosx
+
+dist:
+- bionic
+- xenial
