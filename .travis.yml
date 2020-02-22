@@ -7,3 +7,5 @@ matrix:
       dist: xenial
     - os: linux
       dist: bionic
+
+script: dotnet test Problems.Tests
