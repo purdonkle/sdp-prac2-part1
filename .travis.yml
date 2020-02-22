@@ -1,9 +1,9 @@
 language: csharp
 
-os:
-- linux
-- macosx
-
-dist:
-- bionic
-- xenial
+matrix:
+    include:
+    - os: osx
+    - os: linux
+      dist: xenial
+    - os: linux
+      dist: bionic
